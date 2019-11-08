@@ -2,7 +2,7 @@
 import numpy as np
 
 from dlgo.encoders.base import Encoder
-from dlgo.goboard import Move, Point
+from dlgo.goboard_fast import Move, Point
 
 
 class SevenPlaneEncoder(Encoder):

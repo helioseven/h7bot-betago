@@ -4,7 +4,7 @@ import numpy as np
 from dlgo.agent.base import Agent
 from dlgo.agent.helpers import is_point_an_eye
 from dlgo import encoders
-from dlgo import goboard
+from dlgo import goboard_fast as goboard
 from dlgo import kerasutil
 # end::dl_agent_imports[]
 __all__ = [

@@ -14,7 +14,7 @@ from dlgo.agent.predict import DeepLearningAgent, load_prediction_agent
 from dlgo.httpfrontend import get_web_app
 
 # load model
-model_file = h5py.File("betago/agents/deep_bot.h5", "r")
+model_file = h5py.File("betago/agents/predict_net.hdf5", "r")
 bot_from_file = load_prediction_agent(model_file)
 model_file.close()
 
